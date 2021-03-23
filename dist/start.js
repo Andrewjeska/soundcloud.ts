@@ -1,0 +1,5 @@
+"use strict";
+exports.__esModule = true;
+var soundcloud_1 = require("./soundcloud");
+require("dotenv").config();
+var soundcloud = new soundcloud_1["default"](process.env.SOUNDCLOUD_CLIENT_ID);
